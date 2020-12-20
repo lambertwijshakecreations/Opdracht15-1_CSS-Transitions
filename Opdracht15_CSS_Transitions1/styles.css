@@ -1,0 +1,33 @@
+body {
+  display: flex;
+}
+
+.anim:active .ball-one {
+  left: 150px;
+  transition: left 0.5s ease-in;
+}
+
+.anim:active .ball-two {
+  margin-left: 500px;
+  transition: margin-left 5s 0.5s ease;
+}
+
+.ball-one {
+  background: #ff97c0;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 00px;
+  width: 200px;
+  height: 200px;
+}
+
+.ball-two {
+  background: #0097c0;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 100px;
+  height: 100px;
+}
